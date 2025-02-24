@@ -6,7 +6,7 @@
 
 自动获取 Bing 每日壁纸并设置为 Windows 桌面的轻量级工具，开箱即用的单文件解决方案。
 
-👉 [下载最新版](https://github.com/username/bing-wallpaper/releases/latest)
+👉 [下载最新版](https://github.com/gofxas/bing-wallpaper/releases/latest)
 
 ![](demo.gif)
 
