@@ -1,8 +1,8 @@
 # Bing 每日壁纸工具 🖼️
 
-[![Go Version](https://img.shields.io/github/go-mod/go-version/username/bing-wallpaper)](https://golang.org/)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/gofxas/bing-wallpaper)](https://golang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/username/bing-wallpaper/build.yml)](https://github.com/username/bing-wallpaper/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/gofxas/bing-wallpaper/build.yml)](https://github.com/gofxas/bing-wallpaper/actions)
 
 自动获取 Bing 每日壁纸并设置为 Windows 桌面的轻量级工具，开箱即用的单文件解决方案。
 
