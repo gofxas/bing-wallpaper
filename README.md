@@ -2,7 +2,7 @@
 
 [![Go Version](https://img.shields.io/github/go-mod/go-version/gofxas/bing-wallpaper)](https://golang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/gofxas/bing-wallpaper/build.yml)](https://github.com/gofxas/bing-wallpaper/actions)
+
 
 自动获取 Bing 每日壁纸并设置为 Windows 桌面的轻量级工具，开箱即用的单文件解决方案。
 
@@ -25,6 +25,6 @@
 
 #### 方式一：编译安装（需要 Go 1.20+）
 ```bash
-git clone https://github.com/username/bing-wallpaper.git
+git clone https://github.com/gofxas/bing-wallpaper.git
 cd bing-wallpaper
 go build -ldflags="-H windowsgui" -o bing-wallpaper.exe
