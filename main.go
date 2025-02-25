@@ -40,7 +40,7 @@ func main() {
 	setWallpaper(imgPath)
 
 	// 设置开机启动
-	// setAutoStart()
+	setAutoStart()
 }
 
 func getBingURL() string {
