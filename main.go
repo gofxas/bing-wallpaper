@@ -40,7 +40,7 @@ func main() {
 	setWallpaper(imgPath)
 
 	// 设置开机启动
-	setAutoStart()
+	// setAutoStart()
 }
 
 func getBingURL() string {
@@ -52,7 +52,7 @@ func getBingURL() string {
 
 	var result struct {
 		Images []struct {
-			URL string `json:"url"`
+			URLBASE string `json:"urlbase"`
 		} `json:"images"`
 	}
 
@@ -64,7 +64,7 @@ func getBingURL() string {
 		return ""
 	}
 
-	return "https://www.bing.com" + result.Images[0].URL
+	return "https://www.bing.com" + result.Images[0].URLBASE+"_UHD.jpg"
 }
 
 func downloadImage(url string) string {
